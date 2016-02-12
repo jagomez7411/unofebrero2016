@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.phonegap.example"
+        id          = "com.phonegap.example2"
         versionCode = "10" 
         version     = "2.0.0" >
 
@@ -10,7 +10,7 @@
     <name>Datos del dispositivo</name>
 
     <description>
-        Muestra la version del Andrord, el nombre del equipo, etc
+        Muestra la version del Android, el nombre del equipo, etc
     </description>
 
     <preference name="phonegap-version" value="3.1.0" />
