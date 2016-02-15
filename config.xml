@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.phonegap.example2"
+	    id          = "com.phonegap.example2"
         versionCode = "10" 
-        version     = "2.0.0" >
+        version     = "1.0.0" >
 
-    <!-- versionCode is optional and Android only -->
+
+
+    <!-- Para que se puedan instalar mas de una app, hay que cambiar el nombre final del id example-- example2, example3 -->
 
     <name>Datos del dispositivo</name>
 
@@ -23,4 +25,9 @@
 <gap:plugin name="org.apache.cordova.vibration" version="0.3.0" />
 <gap:plugin name="org.apache.cordova.dialogs" version="0.2.6" />
 <gap:plugin name="org.apache.cordova.device" version="0.2.12" />
+
+    <!-- Colocar icono app -->
+
+<icon src="res/android/mdpi.png" />
+
 </widget>
